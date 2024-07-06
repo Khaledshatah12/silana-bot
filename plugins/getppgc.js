@@ -5,14 +5,14 @@ let handler = async (m, { conn, command }) => {
 		let pp = await conn
 			.profilePictureUrl(q.chat, "image")
 			.catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png");
-		conn.sendFile(m.chat, pp, "nih bang.png", "*هذه هي صورة البروفايل الخاصة بهذه المجموعة....*\nتابع صاحب البوت في حسابه تشجيعا له ♥\ninstagram.com/noureddine_ouafy", m, {
+		conn.sendFile(m.chat, pp, "nih bang.png", "*هذه هي صورة البروفايل الخاصة بهذه المجموعة....*\nتابع صاحب البوت في حسابه تشجيعا له ♥\ninstagram.com/kh_sh932", m, {
 			jpegThumbnail: await (await fetch(pp)).buffer(),
 		});
 	} catch {
 		let pp = await conn
 			.profilePictureUrl(m.chat, "image")
 			.catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png");
-		conn.sendFile(m.chat, pp, "ppsad.png", "*هذه هي صورة البروفايل الخاصة بهذه المجموعة....*\nتابع صاحب البوت في حسابه تشجيعا له ♥\ninstagram.com/noureddine_ouafy", m, {
+		conn.sendFile(m.chat, pp, "ppsad.png", "*هذه هي صورة البروفايل الخاصة بهذه المجموعة....*\nتابع صاحب البوت في حسابه تشجيعا له ♥\ninstagram.com/kh_sh932", m, {
 			jpegThumbnail: await (await fetch(pp)).buffer(),
 		});
 	}
