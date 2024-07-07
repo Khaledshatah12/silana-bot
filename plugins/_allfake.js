@@ -43,9 +43,9 @@ handler.all = async function (_0x439f91) {
     global.ucapan = ucapan();
     global.botdate = date();
     const _0x21b246 = {
-      newsletterJid: "120363285847738492@newsletter",
+      newsletterJid: "120363192261317540@newsletter",
       serverMessageId: 103,
-      newsletterName: "📡ping : " + _0xfd7158 + "   © [ قناتي على الواتساب ]    "
+      newsletterName: "ستو🖤ــرـــ🖤ـيـات🙈🖤"
     };
     global.adReply = {
       contextInfo: {
