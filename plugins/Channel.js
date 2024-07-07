@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 
-m.reply(`\n
+m.reply(`7K\n
 قناتي الأساسية 🖤👤
 https://whatsapp.com/channel/0029VaCoD2sAYlUSoRyroy1A/3137
 *شيء تجاهك أقلقني، وأنا حينما أقلق أغادر..🖤*
