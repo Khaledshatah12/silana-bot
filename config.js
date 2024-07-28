@@ -9,22 +9,22 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'imillie', false],
-['212693227969', '8bal', false]
+['963980677944', 'khaled', true],
+['963980677944', 'imillie', false],
+['963980677944', '8bal', false]
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
- nameown: 'Nour',
- nomerown: '212717457920',
+ nomerbot: '963980677944',
+ pairingNumber: '963980677944',
+ nameown: 'khaled',
+ nomerown: '963980677944',
  packname: 'sticker by ',
- author: 'Noureddine',
- namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
+ author: 'khaled',
+ namebot: 'khaled',
+ wm: ''-'_꩜ ستوريات 𝘣𝘰𝘵 ꩜_'-'',
  stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ stickauth: 'khaled '
 }
 
 // Thumbnail 
@@ -46,9 +46,9 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://instagram.com/kh_sh932',
+ sgh:  'https://github.com/kh_sh932',
+ sgc: 'https://whatsapp.com/channel/0029VaCoD2sAYlUSoRyroy1A/3377'
 }
 
 global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
