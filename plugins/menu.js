@@ -139,7 +139,7 @@ let o = async (a, {
   let W = s(T);
   let X = Object.keys(global.db.data.users).length;
   let Y = Object.values(global.db.data.users).filter(a => a.registered == true).length;
-  let Z = ("\n> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ\n\n\n> ▧ Uptime : " + V + "\n").trimStart();
+  let Z = ("\n> ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱɪʟᴀɴᴀ ʙᴏᴛ ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ستوريات\n\n\n> ▧ Uptime : " + V + "\n").trimStart();
   let $ = [];
   for (let g = 0; g < r.length; g++) {
     let a = {
@@ -163,7 +163,7 @@ let o = async (a, {
     buttonParamsJson: JSON.stringify(aa)
   }];
   if (p == "404") {
-    return b.sendButtonImg(a.chat, "https://telegra.ph/file/5dbcf152d3991a9b81f60.jpg", "", Z.trim(), " ", ba, a, {
+    return b.sendButtonImg(a.chat, "https://telegra.ph/file/ed26557fed9ec5c1e2ef6.jpg", "", Z.trim(), " ", ba, a, {
       contextInfo: {
         mentionedJid: [a.sender]
       }
