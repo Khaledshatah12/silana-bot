@@ -6,12 +6,12 @@ import _0x1b5e8d from "performance-now";
 let handler = _0x32f7bd => _0x32f7bd;
 handler.all = async function (_0x439f91) {
   let _0x34efe9 = await conn.getName(_0x439f91.sender);
-  let _0x1a118f = "https://telegra.ph/file/e96a80d952dcf6df45530.jpg";
-  let _0x19667c = "https://telegra.ph/file/e96a80d952dcf6df45530.jpg";
+  let _0x1a118f = "https://telegra.ph/file/ed26557fed9ec5c1e2ef6.jpg";
+  let _0x19667c = "https://telegra.ph/file/ed26557fed9ec5c1e2ef6.jpg";
   try {
     _0x1a118f = await this.profilePictureUrl(_0x439f91.sender, "image");
   } catch (_0x14f81d) {} finally {
-    global.emror = "https://telegra.ph/file/e96a80d952dcf6df45530.jpg";
+    global.emror = "https://telegra.ph/file/ed26557fed9ec5c1e2ef6.jpg";
     global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"]);
     global.fsizedoc = pickRandom([2000, 3000, 2023000, 2024000]);
     global.axios = (await import("axios")).default;
@@ -57,7 +57,7 @@ handler.all = async function (_0x439f91) {
           title: info.namebot,
           body: ucapan(),
           previewType: "VIDEO",
-          thumbnailUrl: "https://telegra.ph/file/e96a80d952dcf6df45530.jpg",
+          thumbnailUrl: "https://telegra.ph/file/ed26557fed9ec5c1e2ef6.jpg",
           sourceUrl: "https://instagram.com/kh_sh932"
         }
       }
