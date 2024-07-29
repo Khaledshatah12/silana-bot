@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
-*「 معلومات عن صاحب البوت 」*
+*「 معلومات عن صاحب البوت  」*
 
 *رقم المطور :*\nwa.me/963980677944
 
