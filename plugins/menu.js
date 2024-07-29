@@ -39,7 +39,7 @@ let o = async (a, {
       search: "search",
       tools: "tools",
       owner: "owner",
-      infobot: "infobot"
+    
     };
   }
   if (p == "drawing") {
@@ -81,11 +81,7 @@ let o = async (a, {
     o = {
       owner: "Owner"
     };
-  }
-  if (p == "info") {
-    o = {
-      infobot: "infobot"
-    };
+
   }
   let v = k.tz("Asia/Jakarta").format("HH:mm:ss");
   let w = JSON.parse(await g.readFile(h(e, "../package.json")).catch(a => ({}))) || {};
