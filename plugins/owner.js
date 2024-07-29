@@ -3,8 +3,12 @@ let handler = async (m, { conn }) => {
   let caption = `
 *「 معلومات عن صاحب البوت 」*
 
-*Number :*\nwa.me/963980677944
-*instagram:*\ninstagram.com/kh_sh932
+*رقم المطور :*\nwa.me/963980677944
+
+
+*صفحة الانستا:*\ninstagram.com/kh_sh932
+
+
 *قناتي واتساب :* https://whatsapp.com/channel/0029VaCoD2sAYlUSoRyroy1A/3377
 
 `.trim()
