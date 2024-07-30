@@ -48,7 +48,7 @@ let c = async (a, {
       i[1].rows.push(b);
     }
     const j = {
-      title: "إضغط هنا ",
+      title: "اختر التطبيق 🖤🎶",
       sections: i
     };
     let l = j;
@@ -64,10 +64,10 @@ let c = async (a, {
               text: "انقر على الزر أدناه لتنزيل التطبيق"
             }),
             footer: g.Message.InteractiveMessage.Footer.create({
-              text: "silana"
+              text: "khaled"
             }),
             header: g.Message.InteractiveMessage.Header.create({
-              subtitle: "silana",
+              subtitle: "ستوريات",
               hasMediaAttachment: false
             }),
             nativeFlowMessage: g.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -76,7 +76,10 @@ let c = async (a, {
                 buttonParamsJson: JSON.stringify(l)
               }, {
                 name: "quick_reply",
-                buttonParamsJson: "{\"display_text\":\"صاحب البوت\",\"id\":\".owner\"}"
+                buttonParamsJson: "{\"display_text\":\"🖤🎶صاحب البوت\",\"id\":\".owner\"}"
+                    }, {
+                name: "cta_url",
+                buttonParamsJson: "{\"display_text\":\"قناه المطور 🎶🖤\",\"url\":\"https://whatsapp.com/channel/0029VaCoD2sAYlUSoRyroy1A\"}"
               }]
             })
           })
